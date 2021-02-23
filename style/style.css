@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@font-face {
+    font-family: Sf Pro Display;
+    src: url(/fonts/FontsFree-Net-SFProDisplay-Regular.ttf)
+}
+
+body {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.box {
+    width: 274px;
+    height: auto;
+    position: relative;
+    top: 200px;
+}
+
+.logo {
+    margin-top: 30px;
+    font-weight: 300;
+}
+
+.logo .logo-img {
+    margin-bottom: 12px;
+}
+
+.logo h2 {
+    color: #3e476a;
+    line-height: 27px;
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 12px;
+}
+
+.text {
+    color: #878FAD;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+    margin-top: 10px;
+}
+
+.buttons {
+    width: 315px;
+    height: 115px;
+    justify-content: space-between;
+    margin-top: 130px;
+}
+
+.buttons a {
+    width: 100%;
+    height: 48px;
+    border-radius: 3px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.buttons .signup {
+    background: linear-gradient(90deg, #59a1ff 19.89%, #3d67f2 100%);
+    color: white;
+}
+
+.buttons .login {
+    color: #3d8bf2;
+    width: 100%;
+    height: 48px;
+    cursor: pointer;
+    border: 1.5px solid #59a1ff;
+}
+
+.skip-now {
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'Sf Pro Display', sans-serif;
+    color: #3d8bf2;
+}
+
+
+/* Sign Up Page */
+
+.box-signup {
+    width: 315px;
+    position: relative;
+    top: 95px;
+    font-family: 'Sf Pro Display', sans-serif;
+}
+
+form {
+    margin-top: 50px;
+    width: 315px;
+}
+
+.input-control input {
+    width: 300px;
+    height: 48px;
+    border: 0;
+    background: #F2F5FA;
+    font-size: 16px;
+    border-radius: 3px;
+    padding: 0 0 0 15px;
+    margin-bottom: 20px;
+}
+
+input::placeholder {
+    color: #A6ACC3;
+}
+
+input:focus {
+    outline: none;
+}
+
+.btn-signup {
+    width: 315px;
+    height: 48px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    background: linear-gradient(90deg, #59a1ff 19.89%, #3d6ff2 100%);
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 48px;
+}
+
+.line {
+    width: 315px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #878FAD;
+}
+
+.line::before,
+.line::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #efe6eb;
+}
+
+.line:not(:empty)::before {
+    margin-right: 20px;
+}
+
+.line:not(:empty)::after {
+    margin-left: 20px;
+}
+
+.account-signup {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-account {
+    width: 315px;
+    height: 44px;
+    margin-bottom: 10px;
+}
+
+.btn-account button {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 44px 1fr;
+    grid-template-rows: 44px;
+    align-items: center;
+    padding: 0;
+    border: 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-account p {
+    margin: 0;
+}
+
+.btn-account .icon {
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-account .facebook-account {
+    background: #4a6ea8;
+    color: white;
+    border-radius: 3px;
+}
+
+.btn-account .facebook-account .icon {
+    background: #395185;
+}
+
+.btn-account .facebook-account img {
+    width: 10.44px;
+    height: 20px;
+}
+
+.btn-account .google-account {
+    height: 44px;
+    background: white;
+    border: 1px solid #efe6eb;
+    border-radius: 3px;
+}
+
+.btn-account .google-account .icon {
+    border: 1px solid #efe6eb;
+}
+
+.btn-account .google-account img {
+    width: 17.64px;
+    height: 18px;
+}
+
+.terms-agreements {
+    width: 296px;
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #878fad;
+}
+
+.terms-agreements span {
+    color: #3d8bf2;
+}
+
+.aleardy-have-account {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: #878FAD;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+.aleardy-have-account span {
+    color: #3d8bf2;
+    font-weight: bold;
+    text-decoration: none;
+}
