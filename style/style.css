@@ -211,6 +211,7 @@ input:focus {
     background: white;
     border: 1px solid #efe6eb;
     border-radius: 3px;
+    color: #878FAD;
 }
 
 .btn-account .google-account .icon {
@@ -248,4 +249,27 @@ input:focus {
     color: #3d8bf2;
     font-weight: bold;
     text-decoration: none;
+}
+
+
+/* Log In Page */
+
+.m-top {
+    margin-top: 50px;
+}
+
+.m-none {
+    margin-bottom: 20px;
+}
+
+.forget-pass {
+    margin-bottom: 40px;
+}
+
+.forget-pass a {
+    color: #3d8bf2;
+}
+
+.m-bottom {
+    margin-bottom: 80px;
 }

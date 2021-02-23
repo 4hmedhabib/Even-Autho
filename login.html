@@ -15,16 +15,13 @@
 
     <main>
         <div class="container">
-            <div class="box-signup flex-column">
-                <div class="logo-signup flex-column">
+            <div class="box-signup m-top flex-column">
+                <div class="logo-login flex-column">
                     <img class="logo-img" src="images/logo.png" alt="Evon Logo">
                 </div>
 
-                <div class="input-buttons">
+                <div class="input-buttons ">
                     <form class="flex-column">
-                        <div class="input-control">
-                            <input type="text" name="name" id="name" placeholder="Full name" required>
-                        </div>
                         <div class="input-control">
                             <input type="email" name="email" id="email" placeholder="Email" required>
                         </div>
@@ -32,8 +29,11 @@
                         <div class="input-control">
                             <input type="password" name="password" id="password" placeholder="Password" required>
                         </div>
-                        <button class="btn-signup" type="submit">Sign Up</button>
+                        <button class="btn-signup m-none" type="submit">Log in</button>
                     </form>
+                </div>
+                <div class="forget-pass">
+                    <a href="#">Forget Passowrd</a>
                 </div>
                 <div class="line">or </span>
                 </div>
@@ -42,22 +42,19 @@
                     <div class="btn-account">
                         <button class="facebook-account">
                             <div class="icon"><img src="./images/facebook.png" alt="facebook-logo"></div>
-                            <p>Sign Up with Facebook</p>
+                            <p>Log in with Facebook</p>
                         </button>
                     </div>
-                    <div class="btn-account">
-                        <button class="google-account">
+                    <div class="btn-account m-bottom">
+                        <button class="google-account ">
                             <div class="icon"><img src="./images/google.png" alt="google-logo"></div>
-                              <p>Sign Up with Google</p>
+                              <p>Log in with Google</p>
                           </button>
                     </div>
                 </div>
 
-                <div class="terms-agreements">
-                    <p>By signing up you accept the <span>Terms of Service</span>and <span>Privacy Policy</span></p>
-                </div>
                 <div class="aleardy-have-account">
-                    <p>Aleardy have an account? <a href="login.html"><span> Login</span></a></p>
+                    <p>Don't have an account? <a href="signup.html"><span> Sign Up</span></a></p>
                 </div>
             </div>
         </div>
